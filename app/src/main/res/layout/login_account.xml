@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rock_sea"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+     >
+
+        <FrameLayout
+            android:background="#00caf2f0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:layout_width="290dp"
+                android:background="@drawable/white_colour"
+                android:layout_height="420dp" />
+
+
+
+            <and.htetarkarzaw.tuntravel.Custom_fonts.MyEditText
+                android:id="@+id/etusername"
+                android:padding="10dp"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:stateListAnimator="@anim/button_state_list_anim_two"
+                android:textColorHint="#637786"
+                android:textSize="15sp"
+                android:hint="Username"
+                android:background="@drawable/edit_text_colour"
+                android:layout_gravity="center"/>
+
+            <and.htetarkarzaw.tuntravel.Custom_fonts.MyEditText
+                android:id="@+id/etpassword"
+                android:padding="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:inputType="textPassword"
+                android:textColorHint="#637786"
+                android:textSize="15sp"
+                android:hint="Password"
+                android:stateListAnimator="@anim/button_state_list_anim_two"
+                android:background="@drawable/edit_text_colour"
+                android:layout_gravity="center"/>
+            <and.htetarkarzaw.tuntravel.Custom_fonts.MyTextView
+                android:padding="10dp"
+                android:layout_marginTop="105dp"
+                android:layout_width="220dp"
+                android:layout_height="0.5dp"
+                android:background="#637786"
+                android:layout_gravity="center"/>
+            <and.htetarkarzaw.tuntravel.Custom_fonts.MyButton
+                android:id="@+id/btnlogin"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:stateListAnimator="@anim/button_state_list_anim_two"
+                android:layout_gravity="center"
+                android:layout_marginTop="150dp"
+
+                android:background="@drawable/drawable"
+                android:text="Log In"
+                android:textAllCaps="false"
+                android:textColor="#fff" />
+            <and.htetarkarzaw.tuntravel.Custom_fonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="TUN travel"
+                android:textColor="#4c5566"
+                android:textSize="35sp"
+                android:layout_marginBottom="100dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="110dp"
+                android:background="@drawable/green_colour"
+                android:gravity="center"
+                android:layout_marginBottom="100dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="5dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp"
+                android:layout_marginRight="90dp"
+                android:background="@drawable/yellow_colour"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/red_colour"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+
+
+
+
+
+</RelativeLayout>

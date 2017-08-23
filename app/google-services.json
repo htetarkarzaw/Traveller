@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "807554114762",
+    "firebase_url": "https://tun-travel.firebaseio.com",
+    "project_id": "tun-travel",
+    "storage_bucket": "tun-travel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807554114762:android:5a9a0c6de894edf7",
+        "android_client_info": {
+          "package_name": "and.htetarkarzaw.tuntravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807554114762-l73r8aikqj46j94l91bsjhpjemdonopq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn269MeicKJ3B9Y8yLjbCo2EX80m_G5Bw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

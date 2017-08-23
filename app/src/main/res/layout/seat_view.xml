@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/seatNo"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="15sp"
+        android:text="Seat 1."
+        android:textColor="#6a809f"
+        android:background="@drawable/seat_bsckg"
+        android:padding="2dp"
+        android:gravity="center"
+        android:layout_weight="2.5"/>
+    <TextView
+
+        android:id="@+id/name"
+        android:stateListAnimator="@anim/button_state_list_anim_two"
+        android:background="@drawable/seat_two_backg"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="Add"
+        android:textColor="#ffffff"
+        android:padding="2dp"
+        android:layout_weight="1"/>
+</LinearLayout>
